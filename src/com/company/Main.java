@@ -24,9 +24,9 @@ public class Main {
 
         /**Задание 2*/
         byte b1 = 35;
-        short s1 = (byte)b1;
-        int i1 = (short)s1;
-        long l1 = (int)i1;
+        short s1 = b1;
+        int i1 = s1;
+        long l1 = i1;
         System.out.println(b1);
         System.out.println(s1);
         System.out.println(i1);
